@@ -1,0 +1,20 @@
+---
+stages:
+- release_publish
+
+release:publish:
+  image: gitlab.krone.at:5000/krn/fastlane_runner:latest
+  dependencies: []
+  stage: release_publish
+  script:
+  - fastlane publish_release
+  tags:
+  - docker
+  only:
+  - release
+  - fastlane
+  - beta
+  - master
+before_script:
+- eval $(ssh-agent -s)
+- ssh-add <(echo "$SSH_DEPLOY_KEY")

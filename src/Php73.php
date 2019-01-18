@@ -21,6 +21,9 @@ final class Php73 extends Config
     ],
     'blank_line_after_namespace' => true,
     'blank_line_after_opening_tag' => true,
+    'braces' => [
+    'position_after_functions_and_oop_constructs' => 'same'
+  ],
     'blank_line_before_statement' => ['statements' => ['return']],
     'concat_space' => ['spacing' => 'one'],
     'function_typehint_space' => true,

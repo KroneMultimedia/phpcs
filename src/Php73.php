@@ -1,7 +1,7 @@
 <?php
 namespace KRN\CS;
 use PhpCsFixer\Config;
-final class Style extends Config
+final class Php73 extends Config
 {
     public function __construct()
     {

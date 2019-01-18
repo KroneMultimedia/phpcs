@@ -1,0 +1,25 @@
+{
+    "name": "krn/php-cs-style",
+    "description": "PHP CS Fixer config for M6Web components",
+    "keywords": ["CS", "CodingStyle"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KRN",
+            "email": "krn@krone.at",
+            "homepage": "http://krone.at"
+        }
+    ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "~2.13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KRN\\CS\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

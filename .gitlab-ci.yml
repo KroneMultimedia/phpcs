@@ -3,7 +3,7 @@ stages:
 - release_publish
 
 release:publish:
-  image: gitlab.krone.at:5000/krn/fastlane_runner:latest
+  image: registry.krone.at/krn/fastlane_runner:latest
   dependencies: []
   stage: release_publish
   script:

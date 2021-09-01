@@ -10,7 +10,7 @@ final class Php73 extends Config
         parent::__construct('KRNStyle');
         $this->setRiskyAllowed(true);
     }
-    public function getRules()
+    public function getRules(): array
     {
         $rules = [
         '@Symfony' => true,

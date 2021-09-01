@@ -62,6 +62,7 @@ final class Php73 extends Config
                 'ordered_imports' => true,
                 'php_unit_construct' => true,
                 'php_unit_dedicate_assert' => true,
+                'php_unit_method_casing' => false,
                 'phpdoc_single_line_var_spacing' => true,
                 'phpdoc_trim' => true,
                 'pre_increment' => true,

@@ -19,7 +19,7 @@
         "symfony/deprecation-contracts": "3.0.*",
         "symfony/event-dispatcher-contracts": "3.0.*",
         "symfony/http-client-contracts": "3.0.*",
-        "symfony/console": "3.0.*"
+        "symfony/console": "5.4.*"
     },
     "autoload": {
         "psr-4": {

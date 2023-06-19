@@ -21,8 +21,8 @@ final class Php73 extends Config
                 ],
                 'blank_line_after_namespace' => true,
                 'blank_line_after_opening_tag' => true,
-                'braces' => [
-                'position_after_functions_and_oop_constructs' => 'same'
+                'curly_braces_position' => [
+                    'functions_opening_brace' => 'same_line',
                 ],
                 'blank_line_before_statement' => ['statements' => ['return']],
                 'concat_space' => ['spacing' => 'one'],
@@ -38,7 +38,7 @@ final class Php73 extends Config
                 'no_multiline_whitespace_around_double_arrow' => true,
                 'no_short_bool_cast' => true,
                 'no_singleline_whitespace_before_semicolons' => true,
-                'no_trailing_comma_in_singleline_array' => true,
+                'no_trailing_comma_in_singleline' => true,
                 'no_unneeded_control_parentheses' => true,
                 'no_unused_imports' => true,
                 'no_whitespace_before_comma_in_array' => true,
@@ -55,7 +55,6 @@ final class Php73 extends Config
                 'random_api_migration' => true,
                 'self_accessor' => true,
                 'short_scalar_cast' => true,
-                'single_blank_line_before_namespace' => true,
                 'single_class_element_per_statement' => true,
                 'single_quote' => true,
                 'space_after_semicolon' => true,

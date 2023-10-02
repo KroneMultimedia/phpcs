@@ -28,7 +28,7 @@ final class Php73 extends Config
             ],
             'declare_parentheses' => true,
             'no_multiple_statements_per_line' => true,
-            'curly_braces_position' => [
+            'braces_position' => [
                 'functions_opening_brace' => 'same_line'
             ],
             'single_line_after_imports' => true,
@@ -42,7 +42,7 @@ final class Php73 extends Config
             'type_declaration_spaces' => true,
             'lowercase_cast' => true,
             'native_function_casing' => true,
-            'new_with_braces' => true,
+            'new_with_parentheses' => true,
             'no_empty_comment' => true,
             'no_empty_phpdoc' => true,
             'no_empty_statement' => true,

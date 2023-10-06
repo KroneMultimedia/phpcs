@@ -68,7 +68,6 @@ final class Php73 extends Config
             'random_api_migration' => true,
             'self_accessor' => true,
             'short_scalar_cast' => true,
-            'blank_lines_before_namespace' => true,
             'single_class_element_per_statement' => true,
             'single_quote' => true,
             'space_after_semicolon' => true,

@@ -76,6 +76,11 @@ final class Php73 extends Config
             'trim_array_spaces' => true,
             'unary_operator_spaces' => true,
             'whitespace_after_comma_in_array' => true,
+            'yoda_style' => [
+                'equal' => false,
+                'identical' => false,
+                'less_and_greater' => false
+            ],
         ];
         return $rules;
     }
